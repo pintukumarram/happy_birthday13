@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="./assests/css/styles.css">
+</head>
+
+<body>
+
+    <!-- Background Music -->
+    <audio id="birthdayMusic" src="assests/audio/happiest-birthday-to-you-252388.mp3" autoplay loop></audio>
+
+    <div class="landing-page">
+        <h1>🎉 Happy Birthday! 🎉</h1>
+
+        <!-- Birthday Gift Box -->
+        <div class="gift-box" onclick="openGift()">
+            <img src="./images/gift-box.png" alt="Gift Box">
+        </div>
+
+        <!-- Popup message -->
+        <div id="popup" class="popup">You are so Special! Your Gift is here!</div>
+
+        <!-- Positive Quotes -->
+        <div id="quote-box" class="quotes">Wishing you love and happiness!</div>
+
+
+        <!-- Date and Time Display -->
+        <div id="date-time" class="date-time"></div>
+
+        <!-- Canvas for Balloons -->
+        <canvas id="balloonCanvas"></canvas>
+
+        <!-- Sparkling Lights -->
+        <canvas id="sparkleCanvas"></canvas>
+    </div>
+    <script src="./assests/js/scripts.js"></script>
+    <script src="./assests/js/sparkle.js"></script> <!-- Include sparkle.js -->
+
+
+</body>
+
+</html>
